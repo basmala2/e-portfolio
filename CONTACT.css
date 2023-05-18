@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1540px;
+    margin: 0;
+    background-image: url(./pics/contact.png);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        background: url(./index.html/pics/logo\ bbb\ \ 1.png);
+    }
+
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+
+        #CONTACT a{
+            color:rgba(34, 104, 169, 1)
+        }
+    #vector{
+        position: absolute;
+      left: 6.35%;
+     right: 92.33%;
+     top: 60.25%;
+      bottom: 34.96%;
+    }
+
+    /*First name*/
+.contact{
+    display: flex;
+    
+}
+ .Firstname{
+    position: absolute;
+    width: 294px;
+    height: 55px;
+    left: 333px;
+    top: 550px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration-line: underline;
+ }
+
+ .Lastname{
+    position: absolute;
+    width: 294px;
+    height: 55px;
+    left: 815px;
+    top: 550px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration-line: underline;
+ }
+
+ .phone{
+    position: absolute;
+    width: 294px;
+    height: 55px;
+    left: 333px;
+    top: 683px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration-line: underline;
+ }
+ .email{
+    position: absolute;
+    width: 294px;
+    height: 55px;
+    left: 815px;
+    top: 685px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration-line: underline;
+ }
+
+ .ask{
+    position: absolute;
+    width: 294px;
+    height: 54px;
+    left: 599px;
+    top: 798px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+ }
+
+ .ea{
+    position: absolute;
+    width: 727px;
+    height: 56px;
+    left: 554px;
+    top: 952px;
+    
+    font-family: 'Fira Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+ }
+
+ #rec{
+    position: absolute;
+    width: 268px;
+    height: 52px;
+    left: 359px;
+    top: 605px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+ }
+
+ #rec1{
+    position: absolute;
+    width: 268px;
+    height: 52px;
+    left: 815px;
+    top: 605px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+ }
+
+ #rec2{
+    position: absolute;
+    width: 268px;
+    height: 52px;
+    left: 359px;
+    top: 739px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+ }
+
+ #rec3{
+    position: absolute;
+    width: 268px;
+    height: 52px;
+    left: 815px;
+    top: 739px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+ }
+
+ #rec4{
+    position: absolute;
+    width: 383px;
+    height: 49px;
+    left: 554px;
+    top: 852px;
+    
+    background: #FFFFFF;
+    border-radius: 30px;
+ }

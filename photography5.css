@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1440px;
+    margin: 0;
+    background-image: url(./pics/photography5.png);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        background: url(./index.html/pics/logo\ bbb\ \ 1.png);
+    }
+
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+        #GALLERY a{
+            color: rgba(34, 104, 169, 1)
+        }
+
+#photo5{
+ position: absolute;
+ width: 578px;
+ height: 766px;
+ left: 381px;
+ top: 201px;
+ background: url(./pics/photo5.png);
+ border-radius: 10px;
+}
+#vector1{
+    position: absolute;
+ left: 95.56%;
+ right: 3.12%;
+ top: 59.57%;
+ bottom: 35.64%;
+}
+
+#vector{
+    position: absolute;
+    left: 6.01%;
+    right: 92.67%;
+    top: 64.36%;
+    bottom: 30.86%;
+}

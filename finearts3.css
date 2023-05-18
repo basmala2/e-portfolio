@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1440px;
+    margin: 0;
+    background-image: url(./pics/fine\ arts3.png);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        background: url(./index.html/pics/logo\ bbb\ \ 1.png);
+    }
+
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+        #GALLERY a{
+            color: rgba(34, 104, 169, 1)
+        }
+/*Details*/
+.finearts3text{
+    display: flex;
+    
+}
+ .Details h2{
+ position: absolute;
+ width: 544px;
+ height: 487px;
+ left: 902px;
+ top: 409px;
+ font-family: 'Fira Sans Condensed';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 50px;
+ line-height: 60px;
+ text-align: center;
+ text-decoration-line: underline; 
+ }    
+
+ #vector1{
+    position: absolute;
+    left: 94.38%;
+    right: 4.31%;
+    top: 58.98%;
+    bottom: 36.23%;
+ }
+
+ #vector{
+    position: absolute;
+    left: 4.34%;
+    right: 94.34%;
+    top: 63.77%;
+    bottom: 31.45%;
+ }
+ 

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1540px;
+    margin: 0;
+    background-image: url(index.html/pics/home.png);
+    position: relative;
+ width: 1440px;
+ height: 1024px;
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        margin-left: 200px;
+        margin-top: 30px;
+        background: url(./index.html/pics/);
+    }
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+
+        #home a{
+            color: rgb(34, 104, 169, 1)
+        }
+
+.Personalpic{
+    position: absolute;
+    width: 615px;
+    height: 790px;
+    left: 813px;
+    top: 234px;
+}
+#discover{
+ position: absolute;
+ width: 361px;
+ height: 97px;
+ left: 593px;
+ top: 781px;
+}
+#vector1{
+    position: absolute;
+ left: 95.9%;
+ right: 2.78%;
+ top: 59.57%;
+ bottom: 35.64%;
+}

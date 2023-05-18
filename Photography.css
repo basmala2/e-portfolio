@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1440px;
+    margin: 0;
+    background-image: url(./pics/photography.png);
+    position: relative;
+ width: 1440px;
+ height: 1024px;
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        background: url(./index.html/pics/logo\ bbb\ \ 1.png);
+    }
+
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+        #GALLERY a{
+            color: rgba(34, 104, 169, 1)
+        }
+
+#img1{
+ position: absolute;
+ width: 265px;
+ height: 353px;
+ left: 323px;
+ top: 218px;
+ background: url(./pics/img1.png);
+ border-radius: 10px;
+}    
+#img2{
+ position: absolute;
+ width: 263.9px;
+ height: 351.36px;
+ left: 678.86px;
+ top: 220px;
+ background: url(./pics/img2.png);
+ border-radius: 10px;
+}
+#img3{
+ position: absolute;
+ width: 264px;
+ height: 352px;
+ left: 1033px;
+ top: 218px;
+ background: url(./pics/img3.png);
+ border-radius: 10px;
+}
+#img4{
+ position: absolute;
+ width: 265px;
+ height: 352px;
+ left: 458px;
+ top: 630px;
+ background: url(./pics/img4.png);
+ border-radius: 10px; 
+}
+#img5{
+ position: absolute;
+ width: 264px;
+ height: 352px;
+ left: 825px;
+ top: 630px;
+ background: url(./pics/img5.png);
+ border-radius: 10px;
+}
+#vector1{
+    position: absolute;
+    left: 92.71%;
+    right: 5.97%;
+    top: 87.7%;
+    bottom: 7.52%;
+}
+
+#vector{
+    position: absolute;
+    left: 10.17%;
+    right: 88.51%;
+    top: 92.48%;
+    bottom: 2.73%;
+}

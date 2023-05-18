@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: 100%;
+    background-color: white;
+    max-width: 1540px;
+    margin: 0;
+    background-image: url(./pics/gallery.png);
+    position: relative;
+ width: 1440px;
+ height: 1024px;
+
+}
+
+/*Header*/
+header{
+    display: flex; 
+}
+    .logo{
+        position: absolute;
+        width: 666px;
+        height: 455px;
+        left: -78px;
+        top: -136px;
+        background: url(./index.html/pics/logo\ bbb\ \ 1.png);
+    }
+
+
+    #nav{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-family: 'Fira Sans Condensed';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 32px;  
+       top: 18px; 
+    }
+        #nav li{
+            display: inline;
+            
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 90px;
+        }
+
+        #GALLERY a{
+            color: rgba(34, 104, 169, 1)
+        }
+        
+ #pic1gallery{
+     position: absolute;
+     width: 533px;
+     height: 385px;
+     left: 157px;
+     top: 319px;
+     background: url(./pics/pic1\ gallery.png);
+        }
+
+#pic2gallery{
+ position: absolute;
+ width: 533px;
+ height: 385px;
+ left: 868px;
+ top: 319px;
+ background: url(./pics/pic2\ gallery.png);
+}
+
+#pb{
+ position: absolute;
+ width: 636px;
+ height: 163px;
+ left: 129px;
+ top: 799px;
+ border-radius: 30px; 
+}
+#fb{
+    position: absolute;
+    width: 691px;
+    height: 163px;
+    left: 913px;
+    top: 799px;
+    border-radius: 30px;
+}
+#vector1{
+    position: absolute;
+ left: 95.9%;
+ right: 2.78%;
+ top: 59.57%;
+ bottom: 35.64%;
+}
+#vector{
+    position: absolute;
+ left: 3.37%;
+ right: 95.31%;
+ top: 64.36%;
+ bottom: 30.86%;
+}
